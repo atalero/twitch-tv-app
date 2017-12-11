@@ -1,0 +1,41 @@
+body{
+  background-image: url("http://res.cloudinary.com/dhjypclhx/image/upload/c_scale,h_72/v1502139020/twitch-tv-bot_zvghjv.png");
+}
+
+.container{
+  width: 80%;
+  background-color: purple;
+  margin-top: 5%;
+  font-family:garamond;
+  font-size: 18px;
+}
+  
+ ul.tabs li{
+			background: gray;
+			color: black;
+			display: inline-block;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+
+ul.tabs li.current{
+		 background: black;
+		 color: white;  
+		}
+
+.panel{
+  display: none;
+}
+
+.panel.current{
+  display: inherit;
+  background-color: white;
+}
+
+td{
+  padding: 10px 40px;
+}
+
+a{
+  color: black;
+}
